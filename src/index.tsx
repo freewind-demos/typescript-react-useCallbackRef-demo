@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { InputDemo } from './InputDemo'
+import { Hello } from './Hello'
 
 ReactDOM.render(
-  <InputDemo/>,
-  document.body
+  <Hello />,
+  document.getElementById('root')
 )
